@@ -1,0 +1,75 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 24 Apr 2022, 3:27:30 pm
+    Author     : Asyraf
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+html *, body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+}
+.main-page { text-align: center; font-size: 30px; }
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+a { text-decoration: none; color: blue; }
+a:hover { color: red; }
+.kotak {
+    margin: auto;
+    width: 60%;
+    padding: 20px;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 15px 0px #F1F1F1;
+}
+.url-back {
+    padding-left: 20%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.uppercase { text-transform: uppercase; }
+.pt { padding-top: 20px; }
+.pb { padding-bottom: 20px; }
+.mt { margin-top: 20px; }
+.mb { margin-bottom: 20px; }
+.form-group { padding: 10px; }
+label { display: inline-block; width: 200px; }
+input[type=text], input[type=number],
+input[type=password], input[type=email] {
+    padding: 6px;
+    width: 200px;
+}
+button, select { padding: 6px; width: 216px; }
+legend { padding: 10px; text-align: center }
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+table {
+    margin: auto;
+    width: 60%;
+    padding: 0;
+    border-spacing: 0;
+    border: 1px solid black;
+}
+th, td { padding: 10px; }
+th { background-color: #ffcc66; }
+.error {
+    margin: auto; width: 60%; text-align: center;
+    background-color: #ffcccc; color: red; border-radius: 10px;
+}
+.success {
+    margin: auto; width: 60%; text-align: center;
+    background-color: #ccf3d8; color: green; border-radius: 10px;
+}
+span.form-text, p.form-text {
+    font-size: 10px;
+    color: red;
+    padding-left: 216px;
+}
+.navbar, .navbar a { padding: 10px; }

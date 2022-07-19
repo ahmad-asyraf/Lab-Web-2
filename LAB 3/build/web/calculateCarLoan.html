@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Calculate Car Loan</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Asyraf S60494">
+        <link rel="stylesheet" href="css/main-style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Perform Car Loan Calculation</h1>
+        <div class="kotak">
+            <form action="processCalculateCarLoan.jsp" method="POST">
+                <fieldset>
+                    <legend>Loan Calculation</legend>
+                    <div class="form-group">
+                        <label>Loan Amount:*</label>
+                        <input type="number" name="amount" placeholder="amount" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Period:</label>
+                        <select name="period">
+                            <option value="3">3 Years</option>
+                            <option value="4">4 years</option>
+                            <option value="5">5 Years</option>
+                            <option value="7">7 Years</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+        <p class="url-back"><a href="index.html">Back</a></p>
+    </body>
+</html>

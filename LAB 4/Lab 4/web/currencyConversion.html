@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Currency Converter</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Asyraf S60494">
+        <link rel="stylesheet" href="css/main-style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Use JSP Declaration tag, JSP Scriplet and JSP Expression in Application</h1>
+        <h2>Currency Conversion</h2>
+        <div class="kotak text-center">
+            <form action="processCurrency.jsp" method="POST">
+                <div class="form-group">
+                    <label>Amount (RM)</label>:
+                    <input type="text" name="amount" placeholder="in RM" required>
+                </div>
+                <div class="form-group">
+                    <label>Convert to</label>:
+                    <select name="currency">
+                        <option value="1">USD</option>
+                        <option value="2">STG</option>
+                        <option value="3">EURO</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <p class="url-back">
+            <a href="index.html">back</a> | &copy;2022 Asyraf S60494
+        </p>
+    </body>
+</html>

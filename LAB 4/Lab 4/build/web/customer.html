@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Using JSP Scripting</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Asyraf S60494">
+        <link rel="stylesheet" href="css/main-style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Use JSP Scriplet and JSP Expression in Application</h1>
+        <h2>Customer Discount</h2>
+        <div class="kotak">
+            <form action="processCustomer.jsp" method="POST">
+                <div class="form-group">
+                    <label>Customer Code</label>:
+                    <input type="text" name="cust_code" placeholder="Key-in customer code" required>
+                </div>
+                <div class="form-group">
+                    <label>Quantity</label>:
+                    <input type="text" name="quantity" placeholder="Key-in quantity" required>
+                </div>
+                <div class="form-group">
+                    <label>Customer type</label>:
+                    <input type="radio" name="cust_type" value="1" checked> Normal Customer &nbsp;
+                    <input type="radio" name="cust_type" value="2"> Privilege Customer
+                </div>
+                <div class="form-group text-center">
+                    <button type="submit">Submit</button>
+                    <button type="reset">Cancel</button>
+                </div>
+            </form>
+        </div>
+        <p class="url-back">
+            <a href="index.html">back</a> | &copy;2022 Asyraf S60494
+        </p>
+    </body>
+</html>

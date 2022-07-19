@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Task 4.2 - User Registration</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="Asyraf S60494">
+        <link rel="stylesheet" href="../css/main-style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 class="text-center pt pb">User Registration</h1>
+        <div class="kotak">
+            <fieldset>
+                <legend>User Details</legend>
+                <form action="processUser.jsp" method="POST">
+                    <div class="form-group">
+                        <label>Name</label>:
+                        <input type="text" name="fname" placeholder="Enter firstname" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Surname</label>:
+                        <input type="text" name="sname" placeholder="Enter surname" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>:
+                        <input type="password" name="pw" placeholder="Max 10 characters" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Gender</label>:
+                        <input type="radio" name="gender" value="Male" checked> Male &nbsp;
+                        <input type="radio" name="gender" value="Female"> Female
+                    </div>
+                    <div class="form-group">
+                        <label>Type of user</label>:
+                        <select name="user">
+                            <option value="1">Beginner</option>
+                            <option value="2">Intermediate</option>
+                            <option value="3">Advanced</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Prefer language</label>:
+                        <input type="checkbox" name="lang1" value="Malay"> Malay
+                        <input type="checkbox" name="lang2" value="English"> English
+                        <input type="checkbox" name="lang3" value="Mandarin"> Mandarin
+                        <input type="checkbox" name="lang4" value="Tamil"> Tamil
+                    </div>
+                    <div class="form-group text-center">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Cancel</button>
+                    </div>
+                </form>
+            </fieldset>
+        </div>
+        <p class="url-back"><a href="../index.html">back</a></p>
+    </body>
+</html>

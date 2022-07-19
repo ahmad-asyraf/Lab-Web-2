@@ -1,0 +1,41 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 17 Apr 2022, 4:45:55 pm
+    Author     : Asyraf
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html *, body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+input[type=text], input[type=number] {
+    padding: 6px;
+    width: 200px;
+    border: 0;
+    border-bottom: 1px solid #cccccc;
+}
+.pt { padding-top: 20px; }
+.pb { padding-bottom: 20px; }
+a { text-decoration: none; color: blue; }
+a:hover { color: red; }
+.text-center { text-align: center; }
+.url-back { padding: 10px; padding-left: 20%; }
+.kotak { margin: auto; width: 60%; padding: 20px; background-color: aliceblue; }
+h1, h2 { text-align: center; }
+label { display: inline-block; width: 200px; text-align: left; }
+.form-group { padding-top: 10px; padding-bottom: 10px; }
+button, select { border: 0; padding: 6px; width: 216px; }
+button:hover { background-color: #b1b1b1; transition: ease 0.6s; }
+.main-page { font-size: 30px; }
+legend { text-align: center; padding: 10px; }
+fieldset { padding: 10px; }
+th { text-align: left; background-color: #cc66ff; }
+td { text-align: center; }
+table { width: 60%; margin: auto; border-spacing: 0; }
+th, td { border: 1px solid #f1f1f1; padding: 6px; }

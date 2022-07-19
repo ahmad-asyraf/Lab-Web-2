@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 3 Apr 2022, 7:57:58 pm
+    Author     : Asyraf
+*/
+
+html, body, input, button, select { 
+    font-family: 'poppins', sans-serif;
+}
+* { margin: 0; padding: 0; }
+.label {
+    display: inline-block; 
+    width: 100px; 
+    text-align: left; 
+}
+input, select, select.select {
+    padding: 8px;
+    border: 0.5px solid gray;
+    border-radius: 5px;
+    width: 200px;
+}
+select { width: 216px; }
+table {
+    margin: auto;
+    padding: 0;
+    border: 0;
+    border-spacing: 0;
+}
+th, td { 
+    padding: 10px; 
+    border: 0; 
+    font-weight: normal; 
+}
+th { 
+    background-color: #333333;
+    color: white; 
+    text-transform: uppercase;
+    letter-spacing: 1px; 
+    font-size: 14px; 
+}
+td { 
+    background-color: #cccccc;
+    color: #101820FF; 
+    text-align: center; 
+}
+td a:hover { color: white; }
+.form-group { padding: 10px; }
+button {
+    margin: 0;
+    padding: 0;
+    padding: 8px;
+    background-color: #0062ff;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    width: 110px;
+}
+button:hover { background-color: #2679ff; }
+.kotak {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: auto; 
+    width: 50%;
+    text-align: center;
+    box-shadow: 0px 0px 15px 7px #f1f1f1;
+    border-radius: 10px;
+}
+h1 { 
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+p { padding-top: 15px; padding-left: 25%; }
+a { text-decoration: none; color: blue; }
+a:hover { color: red; }
+p.alert {
+    background-color: aliceblue;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+p.success { color: green; border: 1px solid green; }
+p.warning { color: red; border: 1px solid red; }
+p.back { padding-left: 4%; }

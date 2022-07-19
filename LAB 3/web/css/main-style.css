@@ -1,0 +1,94 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 11 Apr 2022, 10:50:31 am
+    Author     : Asyraf
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+html *, body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover { color: red; }
+.master-page { font-size: 30px;}
+.kotak {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    background-color: aliceblue;
+}
+.form-group {
+    padding: 10px;
+}
+.p-loan { text-align: left; }
+.pt-5 { padding-top: 10px; }
+.pb-5 { padding-bottom: 10px; }
+label { 
+    display: inline-block;
+    min-width: 150px;
+    text-align: left;
+}
+button, input {
+    width: 200px;
+    padding: 6px;
+    border: 0;
+}
+select {
+    padding: 6px;
+    width: 216px;
+    border: 0;
+}
+button:hover {
+    color: white;
+    background-color: #cccccc;
+    transition: ease 0.3s;
+}
+legend {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+table {
+    margin: auto;
+    width: 50%;
+    border: 0;
+    border-spacing: 0;
+}
+h1, h2 { padding: 10px; }
+th, td { padding: 10px; border: 1px solid #f1f1f1; }
+th { background-color: #cc66ff; }
+.url-back { 
+    text-align: left; 
+    padding-left: 25%; 
+    padding-top: 10px;
+}
+.task6-main {
+    margin: auto;
+    width: 80%;
+    box-shadow: 0px 0px 15px 7px #f1f1f1;
+    transform: translateY(50%);
+}
+.task6-url-back, .text-left { 
+    padding: 10px;
+    text-align: left; 
+}
+.task6-kotak {
+    background-color: aliceblue;
+}
+.task6-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.task6-footer {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
