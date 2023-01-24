@@ -3,7 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.lab8.task2;
-
 /**
  *
  * @author Asyraf
@@ -16,7 +15,6 @@ public class Customer {
     String repass;
     String name;
     String icno;
-    boolean valid;
 
     public int getId() {
         return id;

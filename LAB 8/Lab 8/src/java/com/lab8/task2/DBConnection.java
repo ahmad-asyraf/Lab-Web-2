@@ -5,7 +5,6 @@
 package com.lab8.task2;
 
 import java.sql.*;
-
 /**
  *
  * @author Asyraf

@@ -31,12 +31,15 @@
         <h1>Insurance Management System</h1>
         <div class="kotak text-center">
             <div class="user-header">
-                <b> Welcome <%= customer.getName()%> </b><a href="<%= request.getContextPath()%>/task2/logout.jsp">[ Sign Out ]</a>
+                <b> Welcome <%= customer.getName()%> </b><a href="<%= request.getContextPath()%>
+                                                            /task2/logout.jsp">[ Sign Out ]</a>
             </div>
             <nav class="navbar">
                 <a href="<%= request.getContextPath()%>/task2/customer-dashboard.jsp">Manage Profile</a> | 
-                <a href="<%= request.getContextPath()%>/CustomerController?cmd=list-vehicle&userID=<%= customer.getId()%>">Manage Vehicle</a> | 
-                <a href="<%= request.getContextPath()%>/CustomerController?cmd=list-insurance&userID=<%= customer.getId()%>">Insurance Quotation</a>
+                <a href="<%= request.getContextPath()%>/CustomerController?cmd=list-vehicle&userID=
+                   <%= customer.getId()%>">Manage Vehicle</a> | 
+                <a href="<%= request.getContextPath()%>/CustomerController?cmd=list-insurance&userID=
+                   <%= customer.getId()%>">Insurance Quotation</a>
             </nav>
             <main class="">
                 <h2>The Insurance Quotation</h2>

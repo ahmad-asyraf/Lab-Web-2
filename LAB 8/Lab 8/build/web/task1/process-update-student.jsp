@@ -26,17 +26,20 @@
                     <legend>Update Student</legend>
                     <div class="form-group">
                         <label>Name</label>:
-                        <input type="text" name="name" value="<%= student.getName() %>" maxlength="50" required="on">
+                        <input type="text" name="name" value="<%= student.getName() %>" 
+                               maxlength="50" required="on">
                         <input type="hidden" name="hidid" value="<%= student.getId() %>">
                         <input type="hidden" name="command" value="UPDATE">
                     </div>
                     <div class="form-group">
                         <label>Matric</label>:
-                        <input type="text" name="matric" value="<%= student.getMatric() %>" maxlength="10" required="on">
+                        <input type="text" name="matric" value="<%= student.getMatric() %>" 
+                               maxlength="10" required="on">
                     </div>
                     <div class="form-group text-center">
                         <button type="submit">Save</button>
-                        <button type="reset" onclick="window.location.href='<%= request.getContextPath() %>/StudentServlet?command=LIST'; return false;">Cancel</button>
+                        <button type="reset" onclick="window.location.href='<%= request.getContextPath() %>
+                            /StudentServlet?command=LIST'; return false;">Cancel</button>
                     </div>
                 </fieldset>
             </form>
